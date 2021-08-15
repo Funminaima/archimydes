@@ -39,8 +39,6 @@ function App() {
 
     setUsersData([...usersData, newUser]);
     setOpenModal(false);
-    // console.log(usersData);
-    // alert("success");
   };
 
   const deleteUserFn = (id) => {
@@ -53,10 +51,7 @@ function App() {
 
   const editUserFn = (user) => {
     setOpenModal(true);
-    console.log(user);
-    // const selectedUser = usersData.find((user) => user.id === id);
-    // console.log(selectedUser);
-    // setUsersData(selectedUser.nameField);
+    
     setEditUser(user);
   };
 
